@@ -1,0 +1,40 @@
+@import "colors";
+
+.footer {
+  background-color: $eweek-black;
+
+  .links {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    height: 96px;
+    justify-content: center;
+
+    a {
+      border: 2px solid white;
+      border-radius: 100px;
+      height: 60px;
+      margin: 0 15px;
+      width: 60px;
+
+      img {
+        display: block;
+        height: 26px;
+        margin: auto;
+        padding-top: 16px;
+        position: relative;
+      }
+    }
+  }
+
+  .contact {
+    text-align: center;
+    padding-bottom: 20px;
+
+    a, p {
+      display: inline;
+      color: white;
+      font-size: 18px;
+    }
+  }
+}
