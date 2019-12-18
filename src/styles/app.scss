@@ -1,0 +1,15 @@
+body {
+  height: 100vh;
+  width: 100vw;
+  margin: 0;
+
+  overscroll-behavior-y: none;
+  background: url('../assets/backdrop.jpg') center center / cover no-repeat fixed;
+
+  font: 1.2em Montserrat;
+}
+
+@font-face {
+  font-family: 'Dust West';
+  src: url('../assets/fonts/Dust West.woff') format('woff');
+}

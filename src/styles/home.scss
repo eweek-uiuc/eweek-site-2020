@@ -1,0 +1,54 @@
+@import "colors";
+
+.home {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100vw;
+}
+
+.logo {
+  width: 50%;
+  height: 100%;
+}
+
+.about {
+  background: $eweek-black;
+
+  .slogan {
+    align-self: center;
+    width: 80vw;
+    padding-bottom: 2em;
+  }
+}
+
+.sponsors {
+  background: $eweek-gray;
+
+  .title {
+    font: lighter 5em "Dust West";
+  }
+
+  .sponsor-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+
+    padding: 0;
+
+    background: $eweek-beige;
+
+    img {
+      width: 15vw;
+    }
+  }
+}
+
+.description {
+  flex: inherit;
+  padding: 4em 4em;
+
+  color: $eweek-yellow;
+  text-align: center;
+}
