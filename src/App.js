@@ -1,17 +1,24 @@
 import React, {Component} from 'react';
+import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 
 import Home from './scenes/Home'
+import About from './scenes/About';
 import Footer from './components/Footer';
-import Header from "./components/Header";
+import Navbar from './components/Navbar';
 
 class App extends Component {
     render() {
         return (
-            <div className="App">
-                <Header/>
-                <Home/>
-                <Footer/>
-            </div>
+            <Router>
+                <div className="App">
+                    <Navbar />
+                    <Switch>
+                        <Route path="/" exact component={Home} />
+                        <Route path="/about" exact component={About} />
+                    </Switch>
+                    <Footer/>
+                </div>
+            </Router>
         );
     }
 }
