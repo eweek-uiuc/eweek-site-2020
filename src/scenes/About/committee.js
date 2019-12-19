@@ -9,6 +9,7 @@ import Sam from '../../assets/headshots/Sam.jpg';
 import Siyan from '../../assets/headshots/Siyan.jpg';
 import Sujal from '../../assets/headshots/Sujal.jpg';
 import Zack from '../../assets/headshots/Zack.jpg';
+import Nila from '../../assets/headshots/Nila.jpg';
 
 const committee = [
     {
@@ -86,7 +87,7 @@ const committee = [
       position: 'Co-Society Competition',
       major: 'Computer Science',
       year: 'Junior',
-      image: Zack,
+      image: Nila,
     },
     {
       name: 'Nora Dunleavy',
