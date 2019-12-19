@@ -1,9 +1,8 @@
-body {
-  height: 100vh;
-  width: 100vw;
+html, body {
+  width: 100%;
   margin: 0;
-
-  overscroll-behavior-y: none;
+  padding: 0;
+  overflow-x: hidden;
   background: url('../assets/backdrop.jpg') center center / cover no-repeat fixed;
 
   font: 1.2em Montserrat;
