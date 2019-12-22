@@ -10,6 +10,10 @@ import Siyan from '../../assets/headshots/Siyan.jpg';
 import Sujal from '../../assets/headshots/Sujal.jpg';
 import Zack from '../../assets/headshots/Zack.jpg';
 import Nila from '../../assets/headshots/Nila.jpg';
+import Mahip from '../../assets/headshots/Mahip.jpg';
+import Bella from '../../assets/headshots/Bella.jpg';
+import Sarah from '../../assets/headshots/Sarah.jpg';
+import Ramya from '../../assets/headshots/Ramya.jpg';
 
 const committee = [
     {
@@ -45,7 +49,7 @@ const committee = [
       position: 'Co-Corporate Chair',
       major: 'Computer Engineering',
       year: 'Sophomore',
-      image: Zack,
+      image: Mahip,
     },
     {
       name: 'Jae Ryding',
@@ -66,21 +70,21 @@ const committee = [
       position: 'Co-Marketing Chair',
       major: 'Communications',
       year: 'Freshman',
-      image: Zack,
+      image: Bella,
     },
     {
       name: 'Ramya Nagapudi',
       position: 'Co-Webmaster',
       major: 'Computer Science',
       year: 'Sophomore',
-      image: Zack,
+      image: Ramya,
     },
     {
       name: 'Sarah Menza',
       position: 'Co-Webmaster',
       major: 'Computer Science',
       year: 'Junior',
-      image: Zack,
+      image: Sarah,
     },
     {
       name: 'Nila Krishnan',
