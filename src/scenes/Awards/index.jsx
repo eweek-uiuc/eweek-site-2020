@@ -3,7 +3,7 @@ import React from 'react';
 class Awards {
     render() {
         return (
-
+            <div className="awards">
             <div className="container">
               <div className="row">
                 <div className="col-lg-12 text-center">
@@ -234,6 +234,7 @@ class Awards {
                 {/*</div>*/}
               </div>
             </div>
+           </div>
           );
         }
     }
