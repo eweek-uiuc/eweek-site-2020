@@ -1,6 +1,8 @@
 import React from 'react';
 
-const About = () => (
+class Awards {
+    render() {
+        return (
           <div className="awards">
             <div className="container">
               <div className="row">
@@ -232,10 +234,9 @@ const About = () => (
                 {/*</div>*/}
               </div>
             </div>
-           </div>
+            </div>
           );
         }
     }
 
 export default Awards;
-
