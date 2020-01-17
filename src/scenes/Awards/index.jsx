@@ -1,9 +1,7 @@
 import React from 'react';
 
-class Awards {
-    render() {
-        return (
-            <div className="awards">
+const About = () => (
+          <div className="awards">
             <div className="container">
               <div className="row">
                 <div className="col-lg-12 text-center">
