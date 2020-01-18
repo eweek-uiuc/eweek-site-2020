@@ -4,7 +4,7 @@ import Couple from '../../assets/awards/Couple.jpg';
 import Friendship from '../../assets/awards/Friendship.jpg';
 import Spirit from '../../assets/awards/Spirit.jpg';
 import Unbutton from '../../assets/awards/Unbutton.jpg';
-import Roar from '../../assets/awards/Roar.jpg';
+import Roar from '../../assets/awards/Roar.png';
 import Endorse from '../../assets/awards/Endorse.png';
 import Khaki from '../../assets/awards/Khaki.jpg';
 import Hacker from '../../assets/awards/Hacker.jpg';
