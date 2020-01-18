@@ -21,8 +21,8 @@ const Awards = () => (
     <div className="awards">
       <div className="text-container">
         <h1>E-WEEK AWARDS</h1>
-        <div>&nbsp;&nbsp;&nbsp;Vote for your friends for EWEEK Awards!
-        </div>
+        <p>&nbsp;&nbsp;&nbsp;Vote for your friends for EWEEK Awards!
+        </p>
       </div>
       <div className="container">
         <div className="awardtypes">
