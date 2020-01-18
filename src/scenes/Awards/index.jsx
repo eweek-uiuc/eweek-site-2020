@@ -17,7 +17,7 @@ const Awardmember = (props) => {
     );
 };
 
-const Award = () => (
+const Awards = () => (
     <div className="awards">
       <div className="text-container">
         <h1>E-WEEK AWARDS</h1>
