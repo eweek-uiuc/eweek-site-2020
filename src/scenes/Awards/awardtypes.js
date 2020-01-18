@@ -6,7 +6,7 @@ import Spirit from '../../assets/awards/Spirit.jpg';
 import Unbutton from '../../assets/awards/Unbutton.jpg';
 import Roar from '../../assets/awards/Roar.png';
 import Endorse from '../../assets/awards/Endorse.png';
-import Khaki from '../../assets/awards/Khaki.jpeg';
+import Khaki from '../../assets/awards/Khaki.jpg';
 import Hacker from '../../assets/awards/Hacker.jpg';
 import Fence from '../../assets/awards/Fence.jpg';
 import Messy from '../../assets/awards/Messy.jpg';
