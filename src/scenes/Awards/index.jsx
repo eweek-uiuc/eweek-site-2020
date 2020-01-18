@@ -18,7 +18,7 @@ class Awards {
                 <div className="col-lg-12 text-center">
                   <h3>Cleverest Girl (E-Week Queen)</h3>
                 </div>
-                <div className="col-sm-4"><img className="img-circle" alt/></div>
+                <div className="col-sm-4"><img className="img-circle" alt="" /></div>
                 <div className="col-sm-4"><img className="img-rounded" src="https://ih1.redbubble.net/image.215393480.0334/st%2Csmall%2C215x235-pad%2C210x230%2Cf8f8f8.lite-1u3.jpg" /></div>
                 <div className="col-sm-4"><img className="img-circle" /></div>
               </div>
