@@ -80,6 +80,7 @@ class Nav extends Component {
           <img src={Logo} alt="EWEEK Logo" />
           <Link onClick={this.toggleMenu} to="/">Home</Link>
           <Link onClick={this.toggleMenu} to="/about">About Us</Link>
+          <Link onClick={this.toggleMenu} to="/awards">Awards</Link>
         </nav>
       </nav>
     );
