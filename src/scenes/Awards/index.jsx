@@ -221,16 +221,16 @@ class Awards {
               </div>
               <br />
               <div className="row">
-                <div className="col-md-6"><iframe width={560} height={315} src="https://www.youtube.com/embed/czo3oTlKXas" frameBorder={0} allow="accelerometer; encrypted-media; gyroscope; picture-in-picture" allowFullScreen /></div>
-                <div className="col-md-6"><iframe width={560} height={315} src="https://www.youtube.com/embed/t6_PbS2oD6o" frameBorder={0} allow="accelerometer; encrypted-media; gyroscope; picture-in-picture" allowFullScreen /></div>
-                <div className="col-md-6"><iframe width={560} height={315} src="https://www.youtube.com/embed/DoPymUu2HPw" frameBorder={0} allow="accelerometer; encrypted-media; gyroscope; picture-in-picture" allowFullScreen /></div>
-                <div className="col-md-6"><iframe width={560} height={315} src="https://www.youtube.com/embed/dYNL0yWN0qw" frameBorder={0} allow="accelerometer; encrypted-media; gyroscope; picture-in-picture" allowFullScreen /></div>
-                <div className="col-md-6"><iframe width={560} height={315} src="https://www.youtube.com/embed/n0lRJojuv20" frameBorder={0} allow="accelerometer; encrypted-media; gyroscope; picture-in-picture" allowFullScreen /></div>
-                <div className="col-md-6"><iframe width={560} height={315} src="https://www.youtube.com/embed/attkxSz_sGs" frameBorder={0} allow="accelerometer; encrypted-media; gyroscope; picture-in-picture" allowFullScreen /></div>
-                <div className="col-md-6"><iframe width={560} height={315} src="https://www.youtube.com/embed/9oyvv7Zyil0" frameBorder={0} allow="accelerometer; encrypted-media; gyroscope; picture-in-picture" allowFullScreen /></div>
-                <div className="col-md-6"><iframe width={560} height={315} src="https://www.youtube.com/embed/ADejCZUsRKU" frameBorder={0} allow="accelerometer; encrypted-media; gyroscope; picture-in-picture" allowFullScreen /></div>
-                <div className="col-md-6"><iframe width={560} height={315} src="https://www.youtube.com/embed/xNnttwaNZUM" frameBorder={0} allow="accelerometer; encrypted-media; gyroscope; picture-in-picture" allowFullScreen /></div>
-                <div className="col-md-6"><iframe width={560} height={315} src="https://www.youtube.com/embed/Cp5XzD8i-L8" frameBorder={0} allow="accelerometer; encrypted-media; gyroscope; picture-in-picture" allowFullScreen /></div>
+                <div className="col-md-6"><iframe title="myFrame1" width={560} height={315} src="https://www.youtube.com/embed/czo3oTlKXas" frameBorder={0} allow="accelerometer; encrypted-media; gyroscope; picture-in-picture" allowFullScreen /></div>
+                <div className="col-md-6"><iframe title="myFrame2" width={560} height={315} src="https://www.youtube.com/embed/t6_PbS2oD6o" frameBorder={0} allow="accelerometer; encrypted-media; gyroscope; picture-in-picture" allowFullScreen /></div>
+                <div className="col-md-6"><iframe title="myFrame3" width={560} height={315} src="https://www.youtube.com/embed/DoPymUu2HPw" frameBorder={0} allow="accelerometer; encrypted-media; gyroscope; picture-in-picture" allowFullScreen /></div>
+                <div className="col-md-6"><iframe title="myFrame4" width={560} height={315} src="https://www.youtube.com/embed/dYNL0yWN0qw" frameBorder={0} allow="accelerometer; encrypted-media; gyroscope; picture-in-picture" allowFullScreen /></div>
+                <div className="col-md-6"><iframe title="myFrame5" width={560} height={315} src="https://www.youtube.com/embed/n0lRJojuv20" frameBorder={0} allow="accelerometer; encrypted-media; gyroscope; picture-in-picture" allowFullScreen /></div>
+                <div className="col-md-6"><iframe title="myFrame6" width={560} height={315} src="https://www.youtube.com/embed/attkxSz_sGs" frameBorder={0} allow="accelerometer; encrypted-media; gyroscope; picture-in-picture" allowFullScreen /></div>
+                <div className="col-md-6"><iframe title="myFrame7" width={560} height={315} src="https://www.youtube.com/embed/9oyvv7Zyil0" frameBorder={0} allow="accelerometer; encrypted-media; gyroscope; picture-in-picture" allowFullScreen /></div>
+                <div className="col-md-6"><iframe title="myFrame8" width={560} height={315} src="https://www.youtube.com/embed/ADejCZUsRKU" frameBorder={0} allow="accelerometer; encrypted-media; gyroscope; picture-in-picture" allowFullScreen /></div>
+                <div className="col-md-6"><iframe title="myFrame9" width={560} height={315} src="https://www.youtube.com/embed/xNnttwaNZUM" frameBorder={0} allow="accelerometer; encrypted-media; gyroscope; picture-in-picture" allowFullScreen /></div>
+                <div className="col-md-6"><iframe title="myFrame10" width={560} height={315} src="https://www.youtube.com/embed/Cp5XzD8i-L8" frameBorder={0} allow="accelerometer; encrypted-media; gyroscope; picture-in-picture" allowFullScreen /></div>
                 {/*</div>*/}
               </div>
             </div>
