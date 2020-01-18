@@ -1,6 +1,6 @@
 import Queen from '../../assets/awards/Queen.jpg';
 import King from '../../assets/awards/King.png';
-import Couple from '../../assets/awards/Couple.jpg';
+import Couple from '../../assets/awards/Couple.png';
 import Friendship from '../../assets/awards/Friendship.jpg';
 import Spirit from '../../assets/awards/Spirit.jpg';
 import Unbutton from '../../assets/awards/Unbutton.jpg';
