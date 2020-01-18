@@ -17,31 +17,31 @@ import Video from '../../assets/awards/Video.gif';
 
 const awardtypes = [
     {
-      name: 'Queen',
+      name: 'Cleverest Girl (E-Week Queen)',
       major: '',
       year: '',
       image: Queen,
     },
     {
-      name: 'King',
+      name: 'E-Week King',
       major: '',
       year: '',
       image: King,
     },
     {
-      name: 'Couple',
+      name: 'Cutest Couple',
       major: '',
       year: '',
       image: Couple,
     },
     {
-      name: 'Friendship',
+      name: 'Best Friendship',
       major: '',
       year: '',
       image: Friendship,
     },
     {
-      name: 'Spirit',
+      name: 'Most E-Week Spirit',
       major: '',
       year: '',
       image: Spirit,
