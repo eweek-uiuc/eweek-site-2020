@@ -81,6 +81,7 @@ class Nav extends Component {
           <Link onClick={this.toggleMenu} to="/">Home</Link>
           <Link onClick={this.toggleMenu} to="/about">About Us</Link>
           <Link onClick={this.toggleMenu} to="/awards">Awards</Link>
+          <Link onClick={this.toggleMenu} to="/leaderboard">Leaderboard</Link>
         </nav>
       </nav>
     );
