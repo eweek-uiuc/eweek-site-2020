@@ -1,0 +1,28 @@
+@import 'colors';
+
+.leaderboard {
+    background: $eweek-black;
+    box-sizing: border-box;
+    padding: 120px 50px;
+    width: 100%;
+
+    .text-container {
+      padding-bottom: 50px;
+
+      h1 {
+        font: lighter 4em "Dust West";
+        color: $eweek-yellow;
+        text-align: center;
+        margin: 25px 0;
+      }
+      a, p {
+        color: $eweek-beige;
+        text-align: center;
+        font-size: 22px;
+      }
+      p {
+        padding-right: 40px;
+        padding-left: 40px;
+      }
+    }
+  }
