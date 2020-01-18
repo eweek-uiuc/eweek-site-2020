@@ -12,7 +12,7 @@ class Awards {
                 </div>
               </div>
               <div className="row text-center">
-                <div className="col-sm-12"><a href="https://docs.google.com/forms/d/e/1FAIpQLSfKkBtRjBsSOLrtPNTmlFOsqbGedyIk2hq6-FeNcNTLvRPZzw/viewform" target="_blank">Vote for your friends for EWEEK Awards!</a></div>
+                <div className="col-sm-12"><a href="https://docs.google.com/forms/d/e/1FAIpQLSfKkBtRjBsSOLrtPNTmlFOsqbGedyIk2hq6-FeNcNTLvRPZzw/viewform" target="_blank" rel="noopener noreferrer">Vote for your friends for EWEEK Awards!</a></div>
               </div>
               <div className="row">
                 <div className="col-lg-12 text-center">
