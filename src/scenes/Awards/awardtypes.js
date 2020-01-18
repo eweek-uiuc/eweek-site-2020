@@ -10,7 +10,7 @@ import Khaki from '../../assets/awards/Khaki.jpeg';
 import Hacker from '../../assets/awards/Hacker.jpg';
 import Fence from '../../assets/awards/Fence.jpg';
 import Messy from '../../assets/awards/Messy.jpg';
-import Eaten from '../../assets/awards/Eaten.jpg';
+import Eaten from '../../assets/awards/Eaten.gif';
 import Expense from '../../assets/awards/Expense.png';
 import Slip from '../../assets/awards/Slip.jpeg';
 import Video from '../../assets/awards/Video.gif';
