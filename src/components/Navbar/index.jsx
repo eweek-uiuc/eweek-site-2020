@@ -80,7 +80,8 @@ class Nav extends Component {
           <img src={Logo} alt="EWEEK Logo" />
           <Link onClick={this.toggleMenu} to="/">Home</Link>
           <a href="https://forms.gle/8GjPLTpyf5qh2edTA" target="_blank" rel="noopener noreferrer">Register</a>
-          <Link onClick={this.toggleMenu} to="/about">About Us</Link>
+          <a href="https://docs.google.com/forms/d/e/1FAIpQLSfvEYiQcS8Xek2DA2lunKUebSFpOr1s4AHhQhbt82-DoSqPEA/viewform?usp=sf_link" target="_blank" rel="noopener noreferrer">Order of the Engineer</a>
+          <Link onClick={this.toggleMenu} to="/about">About</Link>
         </nav>
       </nav>
     );
