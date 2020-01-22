@@ -79,8 +79,8 @@ class Nav extends Component {
           <img className="close" src={close} alt="close pane" onClick={this.toggleMenu} />
           <img src={Logo} alt="EWEEK Logo" />
           <Link onClick={this.toggleMenu} to="/">Home</Link>
-          <a href="https://forms.gle/8GjPLTpyf5qh2edTA" target="_blank" rel="noopener noreferrer">Register</a>
-          <Link onClick={this.toggleMenu} to="/about">About Us</Link>
+          <Link onClick={this.toggleMenu} to="/events">Events</Link>
+          <Link onClick={this.toggleMenu} to="/about">About</Link>
         </nav>
       </nav>
     );

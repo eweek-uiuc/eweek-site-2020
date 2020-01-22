@@ -1,0 +1,110 @@
+@import 'colors';
+
+.events {
+  background: $eweek-black;
+
+  padding: 10vh 20vw;
+  display: flex;
+
+  @media (max-width: 600px) {
+    flex-direction: column;
+  }
+
+  //.dates {
+  //  display: flex;
+  //  flex-direction: column;
+  //  justify-content: space-evenly;
+  //
+  //  height: 100%;
+  //  width: 20vw;
+  //
+  //  @media (max-width: 600px) {
+  //    flex-direction: row;
+  //    align-content: space-evenly;
+  //
+  //    padding: 2vh 0;
+  //
+  //    height: 10vh;
+  //    min-width: 100%;
+  //  }
+  //
+  //  .date {
+  //    display: flex;
+  //    justify-content: center;
+  //    background-color: $eweek-blue;
+  //
+  //    border-radius: 50%;
+  //    height: 2em;
+  //    width: 2em;
+  //
+  //    color: white;
+  //    line-height: 2em;
+  //    text-align: center;
+  //  }
+  //}
+
+  .list {
+    width: 100%;
+    color: white;
+
+    .day {
+      padding: 2% 0;
+
+      h3 {
+        font-size: 1.5em;
+      }
+
+      .event {
+        margin: 2% 0;
+        padding: 2%;
+        border-radius: 25px;
+
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        background-color: $eweek-red;
+        line-height: 3em;
+
+        //&:contains('Cheap Lunch:'){
+        //  background-color: $eweek-blue;
+        //}
+
+        img {
+          background-color: $eweek-yellow;
+          border-radius: 50%;
+          height: 3em;
+          width: 3em;
+        }
+
+        .info {
+          color: $eweek-yellow;
+          transition: color 1s;
+          height: 3em;
+          width: 80%;
+
+          .name {
+            padding: 0;
+            font-size: 1em;
+          }
+
+          .time, .location {
+            display: none;
+          }
+        }
+
+        &:hover {
+
+          .info {
+            color: white;
+            height: auto;
+
+            .time, .location {
+              height: min-content;
+              display: flex;
+            }
+          }
+        }
+      }
+    }
+  }
+}
