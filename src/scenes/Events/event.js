@@ -216,7 +216,6 @@ const events = [
                     time: '5 - 6 PM',
                     location: '2310 Everitt',
                     points: 'Tier 2',
-
                     image: quiz
                 },
                 {
