@@ -6,13 +6,13 @@ import food from '../../assets/events/food.png'
 
 const events = [
     {
-        name: 'Monday, February 3rd',
-        date: '3',
+        name: 'Monday, February 10th',
+        date: '10',
         events:
             [
                 {
                     name: 'Captain\'s Meeting',
-                    time: 'TBD',
+                    time: '5 - 6 PM',
                     location: 'Engineering Hall',
                     link: '',
                     image: hat,
@@ -20,8 +20,8 @@ const events = [
             ]
     },
     {
-        name: 'Monday, February 10th',
-        date: '10',
+        name: 'Wednesday, February 12th',
+        date: '12',
         events:
             [
                 {
@@ -102,7 +102,7 @@ const events = [
                 image: hat
             },
             {
-                name: 'EVENT',
+                name: 'Darts',
                 time: '6 - 7 PM',
                 location: 'Engineering Hall',
                 link: '',
@@ -144,7 +144,7 @@ const events = [
                     image: hat
                 },
                 {
-                    name: 'Dizzy Something',
+                    name: 'Dizzy Deputy',
                     time: '7:30 - 9 PM',
                     location: 'Engineering Hall',
                     link: '',
@@ -179,7 +179,7 @@ const events = [
                     image: hat
                 },
                 {
-                    name: 'CORPORATE EVENT',
+                    name: 'Corporate Event',
                     time: '7 - 8 PM',
                     location: 'Engineering Hall',
                     link: '',
@@ -214,21 +214,21 @@ const events = [
                     image: hat
                 },
                 {
-                    name: 'EVENT',
+                    name: 'Nerf Duel',
                     time: '6 - 7 PM',
                     location: 'Engineering Hall',
                     link: '',
                     image: hat
                 },
                 {
-                    name: 'EVENT',
+                    name: 'Lassos',
                     time: '7 - 8 PM',
                     location: 'Engineering Hall',
                     link: '',
                     image: hat
                 },
                 {
-                    name: 'EVENT',
+                    name: 'Oregon Trail',
                     time: '7 - 8 PM',
                     location: 'Engineering Hall',
                     link: '',
