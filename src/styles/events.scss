@@ -5,7 +5,7 @@
 
   background: $eweek-black;
   color: white;
-  padding: 5vh 5vw;
+  padding: 15vh 3vw;
 
   //@media (max-width: 600px) {
   //  flex-direction: column;
@@ -13,9 +13,11 @@
 
   .sidebar {
     display: flex;
+    align-content: center;
 
     position: fixed;
-    height: 75%;
+
+    height: 40%;
     width: 15vw;
 
     .links {
@@ -23,12 +25,21 @@
       flex-direction: column;
       justify-content: space-evenly;
 
-      padding: 2vh 2vw 2vh 0;
+      font-size: 0.7em;
+      padding: 2vh 0;
 
       a {
-        color: $eweek-pink;
-        text-align: center;
+        color: white;
         text-decoration: none;
+
+        text-shadow: 0 4px 4px rgba(0,0,0,0.25);
+        transform: translate(0, 0);
+        transition: transform 0.2s, text-shadow 0.2s;
+
+        &:hover {
+          transform: translate(0, -1px);
+          text-shadow: 0px 4px 7px rgba(0,0,0,0.95);
+        }
       }
     }
 
@@ -40,16 +51,16 @@
 
       padding: 8vh 0;
 
-      //@media (max-width: 600px) {
-      //  flex-direction: row;
-      //  flex-wrap: wrap;
-      //  align-content: space-evenly;
-      //
-      //  padding: 2vh 0;
-      //
-      //  height: 10vh;
-      //  min-width: 100%;
-      //}
+      @media (max-width: 600px) {
+        flex-direction: row;
+        flex-wrap: wrap;
+        align-content: space-evenly;
+
+        padding: 2vh 0;
+
+        height: 10vh;
+        min-width: 100%;
+      }
 
       .date {
         display: flex;
@@ -69,11 +80,15 @@
   }
 
   .list {
-    margin-left: 20vw;
+    padding: 0 10vw;
+    margin-left: 12vw;
     width: 100%;
 
+    .day + .day {
+      padding-top: 2%;
+    }
+
     .day {
-      padding: 2% 0;
 
       h3 {
         font-size: 1.5em;
@@ -82,37 +97,52 @@
       .event {
         margin: 2% 0;
         padding: 2%;
-        border-radius: 25px;
+
+        border-width: 1px;
+        border-style: solid;
+        border-color: $eweek-gray;
 
         display: flex;
         justify-content: space-between;
         align-items: center;
-        background-color: $eweek-red;
         line-height: 3em;
 
         &:hover {
+          padding: 2% 2% 4% 2%;
+
+          .icon {
+            align-self: stretch;
+          }
 
           .info {
-            color: white;
             height: auto;
 
-            .time, .location {
+            .time, .location, .points {
+              line-height: 2em;
+              font-size: 0.7em;
               height: min-content;
               display: flex;
             }
           }
         }
 
-        img {
+        .icon {
+          display: flex;
+          justify-content: center;
+          align-items: center;
+
           background-color: $eweek-yellow;
           border-radius: 50%;
           height: 3em;
           width: 3em;
+
+          img {
+            height: 70%;
+            width: 70%;
+          }
         }
 
         .info {
-          color: $eweek-yellow;
-          transition: color 1s;
           height: 3em;
           width: 80%;
 
@@ -120,7 +150,7 @@
             font-size: 1em;
           }
 
-          .time, .location {
+          .time, .location, .points {
             display: none;
           }
         }
