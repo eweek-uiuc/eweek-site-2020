@@ -80,31 +80,31 @@ const events = [
                 {
                     name: 'Howdys',
                     time: 'Monday Feb 17th 11 - 1:30 PM',
-                    location: 'Engineering Hall',
+                    location: 'Main Hallway Engineering Hall',
                     image: dish
                 },
                 {
                     name: 'Manolo\'s',
                     time: 'Tuesday Feb 18th 11 - 1:30 PM',
-                    location: 'Engineering Hall',
+                    location: 'Main Hallway Engineering Hall',
                     image: dish
                 },
                 {
                     name: 'D.P. Dough',
                     time: 'Wednesday Feb 19th 11 - 1:30 PM',
-                    location: 'Engineering Hall',
+                    location: 'Main Hallway Engineering Hall',
                     image: dish
                 },
                 {
                     name: 'Maize',
                     time: 'Thursday Feb 20th 11 - 1:30 PM',
-                    location: 'Engineering Hall',
+                    location: 'Main Hallway Engineering Hall',
                     image: dish
                 },
                 {
                     name: 'Rosati\'s',
                     time: 'Friday Feb 21th 11 - 1:30 PM',
-                    location: 'Engineering Hall',
+                    location: 'Main Hallway Engineering Hall',
                     image: dish
                 },
             ]
@@ -117,21 +117,21 @@ const events = [
                 {
                     name: 'E-Week Mile',
                     time: '10 - 10:30 AM',
-                    location: 'Engineering Hall',
+                    location: 'Bardeen Quad',
                     points: 'Tier 2',
                     image: run
                 },
                 {
                     name: 'Obstacle Course',
                     time: '10:30 - 11:30 AM',
-                    location: 'Engineering Hall',
+                    location: 'Main Hallway Engineering Hall',
                     points: 'Tier 2',
                     image: shoe
                 },
                 {
                     name: 'Faculty Brunch',
                     time: '11 - 1 PM',
-                    location: 'Engineering Hall',
+                    location: '106B6 Engineering Hall',
                     points: 'Participation',
                     image: pan
                 },
@@ -145,28 +145,28 @@ const events = [
                 {
                     name: 'Poop the Potato',
                     time: '5 - 6 PM',
-                    location: 'Engineering Hall',
+                    location: '106B6 Engineering Hall',
                     points: 'Tier 2',
                     image: pot
                 },
                 {
                     name: 'Trivia',
                     time: '6 - 7 PM',
-                    location: 'Engineering Hall',
+                    location: '106B1 Engineering Hall',
                     points: 'Tier 2',
                     image: q
                 },
                 {
                     name: 'Darts',
                     time: '6 - 7 PM',
-                    location: 'Engineering Hall',
+                    location: '2101 Everitt',
                     points: 'Tier 2',
                     image: target
                 },
                 {
                     name: 'Water Pong',
                     time: '7 - 8 PM',
-                    location: 'Engineering Hall',
+                    location: 'Main Hallway Engineering Hall',
                     points: 'Tier 2',
                     image: water
                 },
@@ -180,21 +180,21 @@ const events = [
                 {
                     name: 'Bags',
                     time: '5 - 6 PM',
-                    location: 'Engineering Hall',
+                    location: 'Main Hallway Engineering Hall',
                     points: 'Tier 2',
                     image: corn
                 },
                 {
                     name: 'Karaoke',
                     time: '6:30 - 7:30 PM',
-                    location: 'Engineering Hall',
+                    location: '3117 Everitt',
                     points: 'Tier 3',
                     image: karaoke
                 },
                 {
                     name: 'Dizzy Deputy',
                     time: '7:30 - 9 PM',
-                    location: 'Engineering Hall',
+                    location: 'Main Hallway Engineering Hall',
                     points: 'Tier 2',
                     image: sh
                 },
@@ -208,28 +208,27 @@ const events = [
                 {
                     name: 'Blood Drive',
                     time: 'TBD',
-                    location: 'TBD',
+                    location: 'Illini Union',
                     image: quiz
                 },
                 {
                     name: 'Engineering Relay',
                     time: '5 - 6 PM',
-                    location: 'Engineering Hall',
+                    location: '2310 Everitt',
                     points: 'Tier 2',
-
                     image: quiz
                 },
                 {
                     name: 'Costume Contest',
                     time: '6:30 - 8 PM',
-                    location: 'Engineering Hall',
+                    location: '2310 Everitt',
                     points: 'Tier 2',
                     image: shirt
                 },
                 {
                     name: 'Corporate Event',
                     time: '7 - 8 PM',
-                    location: 'Engineering Hall',
+                    location: '2233 Everitt',
                     points: 'Tier 1',
                     image: micro
                 },
@@ -250,35 +249,35 @@ const events = [
                 {
                     name: 'Tug of War',
                     time: '5 - 6 PM',
-                    location: 'Engineering Hall',
+                    location: 'Main Hallway Engineering Hall',
                     points: 'Tier 2',
                     image: hat
                 },
                 {
                     name: 'Saloon Showdown',
                     time: '6 - 7 PM',
-                    location: 'Engineering Hall',
+                    location: '1306 Everitt',
                     points: 'Tier 3',
                     image: hat
                 },
                 {
-                    name: 'Longhorn Lassos',
-                    time: '7 - 8 PM',
-                    location: 'Engineering Hall',
-                    points: 'Tier 3',
-                    image: lasso
-                },
-                {
                     name: 'Oregon Trail',
                     time: '6 - 7 PM',
-                    location: 'Engineering Hall',
+                    location: '106B1 Engineering Hall',
                     points: 'Tier 2',
                     image: game
                 },
                 {
+                    name: 'Longhorn Lassos',
+                    time: '7 - 8 PM',
+                    location: '2233 Everitt',
+                    points: 'Tier 3',
+                    image: lasso
+                },
+                {
                     name: 'Amazing Race',
                     time: '8 PM',
-                    location: 'Engineering Hall',
+                    location: '2233 Everitt',
                     points: 'Double Participation',
                     image: shoe
                 },
