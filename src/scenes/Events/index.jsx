@@ -26,9 +26,9 @@ const Events = () => (
         <div className='sidebar'>
             <div className="links">
                 <a href="https://docs.google.com/document/d/1pjhlVNDJpfb0KZObH8u5VE4wj7Fwvr_i5hlG8mP2DUg/edit?usp=sharing" target="_blank" rel="noopener noreferrer">Captain's Packet</a>
-                <a>Event Rules</a>
-                <a>Photo Scavenger Hunt</a>
-                <a>Co-Host Sign-ups</a>
+                <a href='https://eweekillinois.org/events' target="_blank" rel="noopener noreferrer">Event Rules</a>
+                <a href='https://eweekillinois.org/events' target="_blank" rel="noopener noreferrer">Photo Scavenger Hunt</a>
+                <a href='https://eweekillinois.org/events' target="_blank" rel="noopener noreferrer">Co-Host Sign-ups</a>
             </div>
             {/*<div className="dates">*/}
             {/*    { events.map(c => <div className='date'>{c.date}</div>) }*/}
