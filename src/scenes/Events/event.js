@@ -172,6 +172,13 @@ const events = [
                     points: 'Participation',
                     image: pan
                 },
+                {
+                    name: 'Broomball',
+                    time: '10:30 - 1 AM',
+                    location: 'Ice Arena',
+                    points: 'Tier 2',
+                    image: broom
+                },
             ]
     },
     {
@@ -344,13 +351,6 @@ const events = [
                     location: '1122 NCSA',
                     points: '',
                     image: ring
-                },
-                {
-                    name: 'Broomball',
-                    time: '10:30 - 12 PM',
-                    location: 'Ice Arena',
-                    points: 'Tier 2',
-                    image: broom
                 },
             ]
     },
