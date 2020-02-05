@@ -1,56 +1,134 @@
 @import "colors";
 
 .home {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
   width: 100%;
   height: 100%;
 
-  .logo {
-    max-width: 100vw;
-    max-height: 100vh;
-  }
-  
-  .about {
-    background: $eweek-black;
-    
-    .slogan {
-      align-self: center;
-      width: 80vw;
-      padding-bottom: 2em;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+
+  .start {
+    width: 100vw;
+    height: 100vh;
+
+    display: inherit;
+    flex-direction: column;
+    align-items: center;
+
+    @media (max-width: 760px) {
+      height: max-content;
+      padding-bottom: 5vh;
     }
-  }
-  
-  .sponsors {
-    background: $eweek-gray;
-    
-    .title {
-      font: lighter 5em "Dust West";
+
+    &__logo {
+      max-width: 85vw;
+      max-height: 85vh;
     }
-  
-    .sponsor-list {
-      display: flex;
-      flex-wrap: wrap;
-      justify-content: space-around;
-      align-items: center;
-      margin-top: 60px;
-    
-      background: $eweek-beige;
-      box-shadow: -2px 2px 15px #1c0f09;
-      padding: 20px;
-  
-      img {
-        width: 15vw;
+
+    &__dates {
+      text-align: center;
+      font: 3rem "Dust West";
+      color: $eweek-yellow;
+
+      @media (max-width: 760px) {
+        font: 2.5rem "Dust West";
+        padding: 0 5vw;
       }
     }
   }
-  
-  .description {
-    padding: 4em 4em;
-    color: $eweek-yellow;
-    text-align: center;
 
-    p { text-align: left; color: $eweek-beige; }
+  .about {
+    background: $eweek-black;
+    padding: 10vh 10vw;
+
+    display: flex;
+    flex-direction: column;
+
+    p {
+      margin: 0;
+      padding-top: 5vh;
+      color: $eweek-beige;
+    }
+
+    &__title {
+      width: 80vw;
+    }
+
+    @media (max-width: 760px) {
+      p {
+        text-align: center;
+      }
+    }
+  }
+
+  .sponsors {
+    background: $eweek-gray;
+    padding: 10vh 10vw;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    p {
+      margin: 0;
+      padding-top: 5vh;
+      color: $eweek-beige;
+    }
+
+    &__title {
+      text-align: center;
+      font: 4rem "Dust West";
+      color: $eweek-yellow;
+    }
+
+    &__list {
+      width: 100%;
+      background: $eweek-beige;
+      padding: 5vh 3vw;
+      margin: 10vh 0 0 0;
+
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-between;
+      align-items: center;
+
+      box-shadow: -2px 2px 15px #1c0f09;
+    }
+
+    &__logo > img {
+      width: 18vw;
+    }
+
+    @media (max-width: 760px) {
+      p {
+        text-align: center;
+      }
+
+      &__title {
+        font: 3rem "Dust West";
+      }
+
+      &__logo > img {
+        width: 35vw;
+      }
+    }
+
+    @media (max-width: 400px) {
+      &__title {
+        font: 2rem "Dust West";
+      }
+
+      &__list {
+        height: 80vh;
+        width: 70vw;
+        padding: 2vh 1vw;
+
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+      }
+    }
   }
 }
