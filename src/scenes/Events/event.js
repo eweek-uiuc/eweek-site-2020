@@ -202,7 +202,7 @@ const events = [
                     image: q
                 },
                 {
-                    name: 'Darts',
+                    name: 'Deadeye Darts',
                     time: '6 - 7 PM',
                     location: '2101 Everitt',
                     points: 'Tier 2',
