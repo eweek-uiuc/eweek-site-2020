@@ -1,0 +1,31 @@
+@import 'colors';
+
+.about {
+    .awards-description {
+        text-align: center;
+        padding-bottom: 20px;
+    }
+    .award-info {
+        background-color: rgba(0,0,0,0.2);
+        box-sizing: border-box;
+        padding: 10px;
+        position: absolute;
+        text-align: center;
+        width: 100%;
+        height: 100%;
+    
+        color: white;
+
+        h3 { font-size: 18px; }
+    }
+    .container {
+        padding-bottom: 90px;
+    }
+
+    h1 {
+        font: lighter 4em "Dust West";
+        color: $eweek-yellow;
+        text-align: center;
+        margin: 25px 0;
+    }
+}
