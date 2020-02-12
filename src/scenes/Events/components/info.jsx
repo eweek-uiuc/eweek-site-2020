@@ -47,17 +47,14 @@ class Event extends Component {
                     {/*    in={collapsed}*/}
                     {/*    timeout={350}*/}
                     {/*>*/}
-                        <div className="info" ref={this.contentRef} style={infoStyles}>
-                            <div className='date'>{date}</div>
-                            <div className='time'>{time}</div>
-                            <div className='location'>{location}</div>
-                            <div className='points'>{points}</div>
-                        </div>
+                    <div className="info" ref={this.contentRef} style={infoStyles}>
+                        <div className='date'>{date}</div>
+                        <div className='time'>{time}</div>
+                        <div className='location'>{location}</div>
+                        <div className='points'>{points}</div>
+                    </div>
                     {/*</CSSTransition>*/}
-
-
                 </div>
-
                 <div className={`arrow ${collapsed ? 'down' : 'up'}`}><img src={arrow} alt=''/></div>
             </div>
         );
