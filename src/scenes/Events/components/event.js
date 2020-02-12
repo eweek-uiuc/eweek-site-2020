@@ -1,33 +1,36 @@
-import hat from '../../assets/events/cowboy.png';
-import broom from '../../assets/events/broom.png';
-import beer from '../../assets/events/beer.png';
-import blood from '../../assets/events/blood-donation.png'
-import water from '../../assets/events/beer-pong.png';
-import camera from '../../assets/events/camera.png';
-import clock from '../../assets/events/clock.png';
-import coin from '../../assets/events/coin.png';
-import corn from '../../assets/events/corn.png';
-import dish from '../../assets/events/dish.png';
-import find from '../../assets/events/find.png';
-import game from '../../assets/events/console.png';
-import karaoke from '../../assets/events/karaoke.svg';
-import lasso from '../../assets/events/lasso.png';
-import martini from '../../assets/events/martini.png';
-import pan from '../../assets/events/pancakes.png';
-import pot from '../../assets/events/potato-1.png'
-import q from '../../assets/events/question.png';
-import quiz from '../../assets/events/quiz.svg';
-import ring from '../../assets/events/rings.png';
-import run from '../../assets/events/run.png';
-import sh from '../../assets/events/sheriff.png';
-import shoe from '../../assets/events/shoe.png';
-import target from '../../assets/events/target.png';
-import shirt from '../../assets/events/tshirt.png';
-import goldman from '../../assets/events/goldman.png'
+import hat from '../../../assets/events/cowboy.png';
+import broom from '../../../assets/events/broom.png';
+import beer from '../../../assets/events/beer.png';
+import blood from '../../../assets/events/blood-donation.png'
+import water from '../../../assets/events/beer-pong.png';
+import camera from '../../../assets/events/camera.png';
+import clock from '../../../assets/events/clock.png';
+import coin from '../../../assets/events/coin.png';
+import corn from '../../../assets/events/corn.png';
+import find from '../../../assets/events/find.png';
+import game from '../../../assets/events/console.png';
+import karaoke from '../../../assets/events/karaoke.svg';
+import lasso from '../../../assets/events/lasso.png';
+import martini from '../../../assets/events/martini.png';
+import pan from '../../../assets/events/pancakes.png';
+import pot from '../../../assets/events/potato-1.png'
+import q from '../../../assets/events/question.png';
+import quiz from '../../../assets/events/quiz.svg';
+import ring from '../../../assets/events/rings.png';
+import run from '../../../assets/events/run.png';
+import sh from '../../../assets/events/sheriff.png';
+import shoe from '../../../assets/events/shoe.png';
+import target from '../../../assets/events/target.png';
+import shirt from '../../../assets/events/tshirt.png';
+
+import goldman from '../../../assets/events/goldman.png';
+import synchrony from '../../../assets/sponsors/synchrony.png';
+import sbb from '../../../assets/sponsors/sbb.png';
+import harting from '../../../assets/events/harting.png';
 
 const events = [
     {
-        name: 'Week-long',
+        name: 'WEEK-LONG',
         blurb: '',
         date: 'Week',
         events:
@@ -88,7 +91,7 @@ const events = [
             ]
     },
     {
-        name: 'Cheap Lunch',
+        name: 'CHEAP LUNCH',
         blurb: '',
         date: 'CL',
         events:
@@ -98,20 +101,23 @@ const events = [
                     date: 'Monday, Feb 17th',
                     time: '11 - 1:30 PM',
                     location: 'Main Hallway Engineering Hall',
-                    image: dish
+                    points: '$3 per burger',
+                    image: synchrony
                 },
                 {
                     name: 'Manolo\'s',
                     date: 'Tuesday, Feb 18th',
                     time: '11 - 1:30 PM',
                     location: 'Main Hallway Engineering Hall',
-                    image: dish
+                    points: '$1 per empanada',
+                    image: sbb
                 },
                 {
                     name: 'D.P. Dough',
                     date: 'Wednesday, Feb 19th',
                     time: '11 - 1:30 PM',
                     location: 'Main Hallway Engineering Hall',
+                    points: '$2 per 1/2 calzone',
                     image: goldman
                 },
                 {
@@ -119,6 +125,7 @@ const events = [
                     date: 'Thursday, Feb 20th',
                     time: '11 - 1:30 PM',
                     location: 'Main Hallway Engineering Hall',
+                    points: '$2 per taco',
                     image: goldman
                 },
                 {
@@ -126,12 +133,13 @@ const events = [
                     date: 'Friday, Feb 21st',
                     time: '11 - 1:30 PM',
                     location: 'Main Hallway Engineering Hall',
-                    image: dish
+                    points: '$2 per slice',
+                    image: harting
                 },
             ]
     },
     {
-        name: 'Friday, February 14th',
+        name: 'FRIDAY, February 14th',
         blurb: '',
         date: '14',
         events:
@@ -146,7 +154,7 @@ const events = [
             ]
     },
     {
-        name: 'Sunday, February 16th',
+        name: 'SUNDAY, February 16th',
         blurb: '',
         date: '16',
         events:
@@ -182,7 +190,7 @@ const events = [
             ]
     },
     {
-        name: 'Monday, February 17th',
+        name: 'MONDAY, February 17th',
         blurb: '',
         date: '17',
         events:
@@ -218,7 +226,7 @@ const events = [
             ]
     },
     {
-        name: 'Tuesday, February 18th',
+        name: 'TUESDAY, February 18th',
         blurb: '',
         date: '18',
         events:
@@ -247,7 +255,7 @@ const events = [
             ]
     },
     {
-        name: 'Wednesday, February 19th',
+        name: 'WEDNESDAY, February 19th',
         blurb: '',
         date: '19',
         events:
@@ -255,7 +263,7 @@ const events = [
                 {
                     name: 'Code Your Escape',
                     time: '2 - 4 PM',
-                    location: 'TBD',
+                    location: '1302 Everitt',
                     points: 'Tier 1',
                     image: goldman
                 },
@@ -269,7 +277,7 @@ const events = [
                 {
                     name: 'Marcus Tech Talk',
                     time: '6 - 7 PM',
-                    location: 'TBD',
+                    location: '2233 Everitt',
                     points: 'Tier 1',
                     image: goldman
                 },
@@ -290,15 +298,15 @@ const events = [
             ]
     },
     {
-        name: 'Thursday, February 20th',
+        name: 'THURSDAY, February 20th',
         blurb: '',
         date: '20',
         events:
             [
                 {
-                    name: 'Engineering Essentials / GS Alumni Panel',
+                    name: 'Engineering Essentials + Alumni Panel',
                     time: '12 - 1 PM',
-                    location: 'TBD',
+                    location: '106B8 Engineering Hall',
                     points: 'Tier 1',
                     image: goldman
                 },
@@ -340,7 +348,7 @@ const events = [
             ]
     },
     {
-        name: 'Friday, February 21st',
+        name: 'FRIDAY, February 21st',
         blurb: '',
         date: '21',
         events:
@@ -355,7 +363,7 @@ const events = [
             ]
     },
     {
-        name: 'Saturday, February 22nd',
+        name: 'SATURDAY, February 22nd',
         blurb: '',
         date: '22',
         events:
