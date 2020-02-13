@@ -54,6 +54,15 @@ nav#site-nav {
         &:nth-child(3) { display: none; }
       }
     }
+
+    @media (max-width: 900px) {
+      .nav-links {
+        a {
+          font-size: 18px;
+          margin: 0 16px;
+        }
+      }
+    }
   
     @media (max-width: 760px) {
       .logo, .spacing { display: none; };
