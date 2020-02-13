@@ -31,7 +31,7 @@ class Event extends Component {
         const {collapsed} = this.state;
 
         const infoStyles = {
-            maxHeight: collapsed ? 0 : 100,
+            maxHeight: collapsed ? 'min-content' : 'min-content' + 100,
             display: collapsed ? 'none' : 'flex',
         };
 
