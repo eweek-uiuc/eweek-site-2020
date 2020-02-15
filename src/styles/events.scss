@@ -115,6 +115,10 @@
             flex-direction: row;
             align-items: center;
 
+            @media (max-width: 760px) {
+              padding: 4vw;
+            }
+
             .icon {
               display: flex;
               justify-content: center;
@@ -150,7 +154,7 @@
             padding: 0 2vw 2vw 10vw;
 
             @media (max-width: 760px) {
-              padding-left: 13vw;
+              padding: 0 4vw 4vw 13vw;
             }
 
             display: flex;
