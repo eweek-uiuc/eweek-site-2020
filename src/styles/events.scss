@@ -172,6 +172,8 @@
         }
 
         .arrow {
+          height: 2%;
+          width: 2%;
           padding: 2%;
 
           display: flex;
@@ -180,8 +182,6 @@
           align-items: center;
 
           //transition: transform .5s;
-
-          width: 2%;
 
           img {
             width: 70%;

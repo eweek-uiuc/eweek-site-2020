@@ -69,7 +69,7 @@ const events = [
                     name: 'Team Name Competition',
                     date: 'Monday, Feb 17th - Friday, Feb 21st',
                     time: '5 PM & 12 AM',
-                    points: 'Tier 1',
+                    points: 'Tier 3',
                     image: camera,
                 },
                 {
@@ -261,7 +261,7 @@ const events = [
         events:
             [
                 {
-                    name: 'Code Your Escape',
+                    name: 'Clues for BUs',
                     time: '2 - 4 PM',
                     location: '1302 Everitt',
                     points: 'Tier 1',
@@ -275,7 +275,7 @@ const events = [
                     image: quiz
                 },
                 {
-                    name: 'Marcus Tech Talk',
+                    name: 'GS Tech Talk',
                     time: '6 - 7 PM',
                     location: '2233 Everitt',
                     points: 'Tier 1',
@@ -304,7 +304,7 @@ const events = [
         events:
             [
                 {
-                    name: 'Engineering Essentials + Alumni Panel',
+                    name: 'GS Engineering Panel',
                     time: '12 - 1 PM',
                     location: '106B8 Engineering Hall',
                     points: 'Tier 1',

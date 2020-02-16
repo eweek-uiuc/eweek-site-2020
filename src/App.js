@@ -18,9 +18,9 @@ class App extends Component {
                     <Switch>
                         <Route path="/" exact component={Home} />
                         <Route path="/events" exact component={Events} />
-                        <Route path="/about" exact component={About} />
-                        <Route path="/awards" exact component={Awards} />
                         <Route path="/leaderboard" exact component={Leaderboard} />
+                        <Route path="/awards" exact component={Awards} />
+                        <Route path="/about" exact component={About} />
                     </Switch>
                     <Footer/>
                 </div>
