@@ -10,6 +10,7 @@ nav#site-nav {
   align-items: center;
 
   background-color: rgba(0, 0, 0, 0.0);
+  z-index: 1000;
   position: fixed;
   transition: background-color .2s;
 
