@@ -7,7 +7,6 @@ import About from './scenes/About';
 import Awards from './scenes/Awards';
 import Footer from './components/Footer';
 import Navbar from './components/Navbar';
-import Leaderboard from "./scenes/Leaderboard";
 
 class App extends Component {
     render() {
@@ -18,7 +17,6 @@ class App extends Component {
                     <Switch>
                         <Route path="/" exact component={Home} />
                         <Route path="/events" exact component={Events} />
-                        <Route path="/leaderboard" exact component={Leaderboard} />
                         <Route path="/awards" exact component={Awards} />
                         <Route path="/about" exact component={About} />
                     </Switch>
