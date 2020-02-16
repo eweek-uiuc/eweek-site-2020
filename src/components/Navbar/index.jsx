@@ -74,9 +74,9 @@ class Nav extends Component {
           <Link onClick={this.toggleMenu} to="/">Home</Link>
           <a href="https://forms.gle/8GjPLTpyf5qh2edTA" target="_blank" rel="noopener noreferrer">Register</a>
           <Link onClick={this.toggleMenu} to="/events">Events</Link>
-          <a href="https://docs.google.com/spreadsheets/d/1QUF29VrjNroQHrc3WOaTOL0eqssDS8ovmIEeL0NVAwM/edit?usp=sharing" target="_blank" rel="noopener noreferrer">Leaderboard</a>
+          <a href="https://docs.google.com/spreadsheets/d/1YE6h1A3jwMWX97aLxMH2j-Eobd7uolbgxkipIHND4bs/edit?usp=sharing" target="_blank" rel="noopener noreferrer">Leaderboard</a>
           <Link onClick={this.toggleMenu} to="/awards">Awards</Link>
-          <a href="https://docs.google.com/forms/d/e/1FAIpQLSfvEYiQcS8Xek2DA2lunKUebSFpOr1s4AHhQhbt82-DoSqPEA/viewform?usp=sf_link" target="_blank" rel="noopener noreferrer">Order of the Engineer</a>
+          {/*<a href="https://docs.google.com/forms/d/e/1FAIpQLSfvEYiQcS8Xek2DA2lunKUebSFpOr1s4AHhQhbt82-DoSqPEA/viewform?usp=sf_link" target="_blank" rel="noopener noreferrer">Order of the Engineer</a>*/}
           <Link onClick={this.toggleMenu} to="/about">About</Link>
         </nav>
       </nav>

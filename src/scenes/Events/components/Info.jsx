@@ -29,7 +29,6 @@ class Info extends Component {
         const {collapsed} = this.state;
 
         const infoStyles = {
-            height: collapsed ? 'min-content' : '20vh',
             display: collapsed ? 'none' : 'flex',
         };
 
@@ -42,10 +41,10 @@ class Info extends Component {
                     </div>
 
                     <div className="info" ref={this.contentRef} style={infoStyles}>
-                        <div className='date'>{date}</div>
-                        <div className='time'>{time}</div>
-                        <div className='location'>{location}</div>
-                        <div className='points'>{points}</div>
+                        <div className='detail date'>{date}</div>
+                        <div className='detail time'>{time}</div>
+                        <div className='detail location'>{location}</div>
+                        <div className='detail points'>{points}</div>
                     </div>
                 </div>
                 <div className={`arrow ${collapsed ? 'down' : 'up'}`}><img src={arrow} alt=''/></div>

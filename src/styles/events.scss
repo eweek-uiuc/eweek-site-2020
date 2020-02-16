@@ -161,7 +161,7 @@
             flex-direction: column;
             justify-content: space-between;
 
-            .date, .time, .location, .points {
+            .detail {
               font-size: 0.7em;
 
               @media (max-width: 760px) {
