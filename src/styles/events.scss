@@ -167,6 +167,14 @@
               @media (max-width: 760px) {
                 font-size: 0.55em;
               }
+
+              &:empty {
+                display: none;
+              }
+            }
+
+            .detail + .detail {
+              padding-top: 1vh;
             }
           }
         }

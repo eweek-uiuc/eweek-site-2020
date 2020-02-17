@@ -250,6 +250,7 @@ const events = [
                     time: '7:30 - 9 PM',
                     location: 'Main Hallway Engineering Hall',
                     points: 'Tier 2',
+                    host: 'A$ME',
                     image: sh
                 },
             ]
@@ -315,6 +316,7 @@ const events = [
                     time: '5 - 6 PM',
                     location: 'Main Hallway Engineering Hall',
                     points: 'Tier 2',
+                    host: 'The Wild SWEst',
                     image: hat
                 },
                 {
@@ -343,6 +345,7 @@ const events = [
                     time: '8 - 10 PM',
                     location: '2233 Everitt',
                     points: '2x Participation PTS',
+                    host: 'Ropes of Friendship',
                     image: shoe
                 },
             ]
