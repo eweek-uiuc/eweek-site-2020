@@ -22,6 +22,8 @@ const Events = () => (
                    target="_blank" rel="noopener noreferrer">Event Rules</a>
                 <a href='https://docs.google.com/spreadsheets/d/1vs0VFAaVYvXsjeIggXeu57TD6w1eKUntD8NJrMewcUk/edit?usp=sharing'
                    target="_blank" rel="noopener noreferrer">Photo Scavenger Hunt</a>
+                <a href='https://forms.gle/XbAHhZSicpWfMEay5'
+                   target="_blank" rel="noopener noreferrer">Team Name Competition</a>
                 <a href='https://forms.gle/3KeJt2oB4VJ8iGxf6' target="_blank" rel="noopener noreferrer">Co-Host
                     Sign-ups</a>
             </div>
