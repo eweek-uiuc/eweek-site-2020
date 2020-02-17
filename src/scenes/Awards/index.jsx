@@ -33,7 +33,7 @@ class Awards extends React.Component {
 
                 <h1>VIDEO COMPETITION</h1>
                 <div className="text-container awards-description">
-                    <p>Videos are due Monday 2/17 at 5 PM. We will add them here to be voted on throughout the week.</p>
+                    <p>Videos are due Wednesday 2/19 at 5 PM. We will add them here to be voted on throughout the week.</p>
                     {/* <p>Vote for the best video here by Friday 11:59PM!</p> */}
                 </div>
             </div>
