@@ -265,7 +265,7 @@ const events = [
                     name: 'Clues for BUs',
                     time: '2 - 4 PM',
                     location: '1302 Everitt',
-                    points: 'Tier 1',
+                    points: 'Double Participation',
                     image: goldman
                 },
                 {
@@ -279,7 +279,7 @@ const events = [
                     name: 'GS Tech Talk',
                     time: '6 - 7 PM',
                     location: '2233 Everitt',
-                    points: 'Tier 1',
+                    points: 'Double Participation',
                     image: goldman
                 },
                 {
@@ -308,7 +308,7 @@ const events = [
                     name: 'GS Engineering Panel',
                     time: '12 - 1 PM',
                     location: '106B8 Engineering Hall',
-                    points: 'Tier 1',
+                    points: 'Double Participation',
                     image: goldman
                 },
                 {
