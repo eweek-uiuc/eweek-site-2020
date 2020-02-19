@@ -284,7 +284,7 @@ const events = [
                 },
                 {
                     name: 'Costume Contest',
-                    time: '6:30 - 8 PM',
+                    time: '7 - 8 PM',
                     location: '2310 Everitt',
                     points: 'Tier 2',
                     image: shirt
