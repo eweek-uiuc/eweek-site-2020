@@ -25,7 +25,7 @@ class Info extends Component {
     }
 
     render() {
-        const {image, name, date, time, location, points} = this.props;
+        const {image, name, date, time, location, points, host} = this.props;
         const {collapsed} = this.state;
 
         const infoStyles = {
@@ -45,6 +45,7 @@ class Info extends Component {
                         <div className='detail time'>{time}</div>
                         <div className='detail location'>{location}</div>
                         <div className='detail points'>{points}</div>
+                        <div className='detail host'>{host}</div>
                     </div>
                 </div>
                 <div className={`arrow ${collapsed ? 'down' : 'up'}`}><img src={arrow} alt=''/></div>

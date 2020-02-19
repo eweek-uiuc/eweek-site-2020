@@ -149,6 +149,7 @@ const events = [
                     time: '12 - 4 PM',
                     location: 'Ballroom B Illini Union',
                     points: '15 PTS per person',
+                    host: 'Service Committee',
                     image: blood
                 },
             ]
@@ -178,6 +179,7 @@ const events = [
                     time: '11 - 1 PM',
                     location: '106B6 Engineering Hall',
                     points: 'Participation',
+                    host: 'DSAC Committee',
                     image: pan
                 },
                 {
@@ -185,6 +187,7 @@ const events = [
                     time: '10:30 - 1 AM',
                     location: 'Ice Arena',
                     points: 'Tier 2',
+                    host: 'Service Committee',
                     image: broom
                 },
             ]
@@ -345,7 +348,7 @@ const events = [
                     time: '8 - 10 PM',
                     location: '2233 Everitt',
                     points: '2x Participation PTS',
-                    host: 'Ropes of Friendship',
+                    host: 'JQ\'s Pardners & Ropes of Friendship',
                     image: shoe
                 },
             ]
