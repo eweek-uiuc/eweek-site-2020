@@ -344,7 +344,7 @@ const events = [
                     name: 'Amazing Race',
                     time: '8 - 10 PM',
                     location: '2233 Everitt',
-                    points: '2x Participation PTS',
+                    points: 'Tier 2',
                     host: 'Ropes of Friendship',
                     image: shoe
                 },
