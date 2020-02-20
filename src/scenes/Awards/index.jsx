@@ -28,8 +28,7 @@ class Awards extends React.Component {
             <div className="about">
                 <h1>SUPERLATIVES</h1>
                 <div className="text-container awards-description">
-                    <p>Nominate people for E-Week superlatives <a href="https://forms.gle/Da8GxdhpzgP7Ejp47" target="_blank" rel="noopener noreferrer">here</a> by Wednesday 11:59 PM!</p>
-                    {/* <p>Vote for E-Week superlative winners here by Friday 11:59PM! Winners will be announced at semi-formal.</p> */}
+                    <p>Nominate people for E-Week superlatives <a href="https://forms.gle/Da8GxdhpzgP7Ejp47" target="_blank" rel="noopener noreferrer">here</a> by Friday 11:59 PM!</p>
                 </div>
                 <div className="container">
                     <div className="committee">
