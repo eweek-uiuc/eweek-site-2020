@@ -7,7 +7,7 @@ const Date = (props) => {
     return (
         <div className="day">
             <h3>{name}</h3>
-            {events.map(e => <Info image ={e.image} name={e.name} date={e.date} time={e.time} location={e.location} points={e.points}/>)}
+            {events.map(e => <Info image ={e.image} name={e.name} date={e.date} time={e.time} location={e.location} points={e.points} host={e.host}/>)}
         </div>
     );
 };
